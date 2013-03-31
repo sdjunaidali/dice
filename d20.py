@@ -1,6 +1,6 @@
 import random
 
-def gen_20(number_of_dice):
+def roll20(number_of_dice):
 	"""
 		returns the results of rolling <number_of_dice> d20 dice in a list	
 	"""
