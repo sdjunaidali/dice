@@ -8,9 +8,9 @@ while True:
 		num = raw_input("Enter the number of die you want to roll: ")
 		myResult = []
 		if type == "d6":
-			myResult = SixSidedDice(num)
+			myResult = d6.SixSidedDice(num)
 		elif type =="d20":
-			myResult = roll20(num)
+			myResult = d20.roll20(num)
 		else:
 			print "Invalid input"
 		print myResult

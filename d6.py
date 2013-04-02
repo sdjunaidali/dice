@@ -1,3 +1,5 @@
+import random
+
 def SixSidedDice(numberOfDice):
 	myList = []
 	i = 0
